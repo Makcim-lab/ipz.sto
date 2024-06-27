@@ -1,0 +1,148 @@
+/* Основні стилі для всього сайту */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Колір фону */
+}
+
+header {
+  background-color: #333; /* Колір верхньої панелі */
+  color: #fff; /* Колір тексту */
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  padding: 10px;
+  background-color: #444; /* Колір фону навігаційного меню */
+}
+
+nav a {
+  color: #fff; /* Колір тексту посилань */
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.main-content, .services-content, .about-content, .contact-content {
+  padding: 40px 20px;
+  text-align: center;
+  min-height: 100vh; /* Мінімальна висота на весь екран */
+}
+
+.main-content {
+  background-image: url('background.jpg'); /* Фонове зображення */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Колір тексту для контрасту з фоном */
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333; /* Колір фону підвалу */
+  color: #fff; /* Колір тексту підвалу */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Стилі для таблиці з цінами */
+
+.prices {
+  background-color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  max-width: 100%;
+  margin-top: 20px;
+}
+
+.prices table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.prices th, .prices td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.prices th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Стилі для відео блоку */
+
+.video-block {
+  background-color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.video-block video {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  display: block;
+}
+
+/* Стилі для відео блоку1 */
+
+.video-container {
+  background-color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.video-container video {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  display: block;
+}
+
+
+/* Додаткові стилі для анімації */
+
+#animationCanvas {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Стилі для розділу "Про нас" */
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.photo-block {
+  width: 30%;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.photo-block img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
